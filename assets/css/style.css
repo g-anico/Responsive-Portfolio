@@ -28,9 +28,6 @@ nav a:hover {
 
 /* end hover styling */
 
-
-
-
 .container {
 	width: 100%;
 	max-width: 960px;
@@ -69,7 +66,7 @@ h2,
 h3 {
 	font-size: 22px;
 }
-/*now for the header* Ask TAs what margin: 0 0 30px does;*/
+/*now for the header*/
 #masthead {
 	position: fixed;
 	z-index: 99;
@@ -171,7 +168,7 @@ h3,
 	border: 1px solid #ddd;
 }
 
-/* Portfolio CSS!!! REVIEW !!!!!*/
+/* Portfolio CSS!!! */
 .work {
   position: relative;
   float: left;
@@ -251,8 +248,10 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
 /*ENTER MEDIA QUERIES*/
-/*Width of a desktop layout is about 960 but we use 980px*/
+/*Width of desktop layout is ~960px but we use 980px because
+you want media queries to kick in before content is cut off*/
 @media screen and (max-width: 980px) {
 	.auth-image {
 		width: 100%;
@@ -286,13 +285,12 @@ input[type=submit] {
 
 }
 
-/*Width of a tablet*/
+/*Width of a tablet 768px*/
 @media screen and (max-width: 768px) {
 	/*About Page*/
 	#logo {
 		padding-left: 15px;
 	}
-
 
 	.main-section {
 		width:100%;
@@ -301,7 +299,7 @@ input[type=submit] {
 		float: left;
 		display: block;
 		max-width: 100%;
-		}
+	}
 
 	#main-container {
 		padding-top: 0px;
@@ -325,16 +323,9 @@ input[type=submit] {
 		max-width: 100%;
 		padding:30px;
 	}
-
-	/*Portfolio Page Responsive styling*/
-
-	.container {
-
-	}
-	
 }
 
-/*Width of a phone in landscape*/
+/*Width of a phone in landscape 640px*/
 @media screen and (max-width: 640px) {
 	.auth-image {
 		float:none;
@@ -365,8 +356,8 @@ input[type=submit] {
 		display: inline;
 		width: 100%;
 		margin: 0;
-
 	}
+	
 	nav {
 		display: inline;
 		width: 100%;
@@ -374,22 +365,4 @@ input[type=submit] {
 		padding-bottom: 20px;
 	}
 }
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
